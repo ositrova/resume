@@ -1,15 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>MY BEST Resume</title>
+</head>
+<body>
 
-    <!-- fonts -->
+<!--Main-->
+<div class="main">
+    <!--Main content-->
+    <div class="main_content">
 
-    <!-- css -->
-    <link rel="stylesheet" href="./css/main.min.css" />
-  </head>
-  <body></body>
+        <!--about user-->
+        <div class="about"> 
+            <h2 class="about-prostion">Front-End Developer</h2>
+            <h1 class="about-name">Maryna Ositrova</h1>
+    
+            <p class="about-description">        More than six months of experience in website development. I will make the site in the best possible way, taking into account all the wishes, even to the smallest details. I work fast, I always get it done on deadline. I look forward to interesting projects and opportunities for professional growth. 
+            </p>
+        </div>
+       <!--Projects-->
+       <div class="projects">
+        <h3 class="title"> 
+            Projects
+        </h3>
+         <ol class="project-list">
+        <li class="projects-item">
+            <span class="project">
+                <a href="https://hellenglish.goit.global/" class="project-link">https://hellenglish.goit.global/</a>
+                ..........
+                <span class="project-bracket">[</span> HTML5, CSS3  <span class="project-bracket">]</span>
+                
+            </span>
+            
+        </li>
+        <li class="projects-item">
+            <span class="project">
+                <a href="https://cryptohub.goit.global/" class="project-link">https://cryptohub.goit.global/</a>
+                ...........
+                <span class="project-bracket">[</span>
+                JavaScript <span class="project-bracket">]</span>
+            </span>
+           
+        </li>
+        <li class="projects-item">
+            <span class="project">
+                <a href="https://kidslike.goit.global/" class="project-link">https://kidslike.goit.global/</a>
+                .................
+                <span class="project-bracket">[</span>
+                React.js, Node.js<span class="project-bracket">]</span>
+            </span>
+            
+        </li>
+       </ol>
+    </div>
+       <!--Work-->
+       <div class="work">
+        <h3 class="title">Work Experience</h3>
+        <!--Company 1-->
+        <div>
+            <h4 class="work-position">Front-End Developer <span class="organization"> Ukraine </span> 
+            </h4>
+            <p class="period">July 2022 - up to now  <span class="line">|</span>    Country</p>
+            <ul class="work-list"></ul>
+                <li class="work-list-item">Setting up functionality (buttons, sliders, forms, galleries and other elements) and writing scripts. </li>
+                <li class="work-list-item">Designing and creating interfaces from scratch.</li>
+                <li class="work-list-item">Responsive and cross-browser website layout. </li>
+                <li class="work-list-item">Writing HTML code and CSS styles. </li>
+            </ul>
+
+        </div>
+        <!--Company 2-->
+        <div>
+            <h4 class="work-position">Barista <span class="organization"> Panda coffee </span> 
+            </h4>
+            <p class="period"> Semptember 2020 - July 2022 <span class="line">|</span> Ukraine, Brovary</p>
+            <ul class="work-list">
+                <li class="work-list-item">Prepare hot and cold drinks according to the technical card. </li>
+                <li class="work-list-item">Communicate politely with customers and offer related products. </li>
+                <li class="work-list-item">Place an order as needed.  </li>
+            </ul>
+        </div>
+        <!--Company 3-->
+        <div>
+            <h4 class="work-position">Salesman <span class="organization">Shoe warehouse</span> 
+        </h4>
+            <p class="period">June 2014 - February 2019 <span class="line">|</span> Ukraine, Mykolayv</p>
+            <ul class="work-list"></ul>
+                <li class="work-list-item">Help with the choice,sell goods.  </li>
+                <li class="work-list-item">Communicate politely with customers and offer related products.</li>
+                <li class="work-list-item">Make a rediscount. </li>
+            </ul>
+        </div>
+       </div>
+
+       <!--Education-->
+       <div class="Education">
+
+        <h3 class="title">Education</h3>
+        <h4 class="education-organization">Programming courses GO IT </h4>
+        <h5 class="job-title">Front-End developer</h5>
+        <p class="period">Jule 2022 - up to now <span class="line">|</span> Ukraine </p>
+       </div>
+
+   
+    </div>
+    <!--Sidebar-->
+   
+   
+
+    <aside class="sidebar">
+        <img src="img/photo_2022-07-21_09-54-31.jpg" alt="user photo" class="photo">
+        <!--contacts-->
+        <div class="contacts">
+            <h3 class="sidebar-title">Contacts</h3>
+            <div>
+                <p>
+                    <span class="contact-type">C:</span>
+                    <a href="+3806755772566" class="contact-link">+3806755772566</a>
+                </p>
+                <p>
+                    <span class="contact-type">E:</span>
+                    <a href="mailto:buglina.mary1@gmail.com" class="contact-link">buglina.mary1@gmail.com</a> 
+                </p>
+                
+            </div>
+        </div>
+        <!--Tech skills-->
+        <div class="tech-skills">
+            <h3 class="sidebar-title">Tech Skills</h3>
+            <ul class="tech-skills-list">
+                <li class="tech-skills-item"> <span class="tech-skills-text">HTML5</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">CSS3</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">GIT</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">WebPack</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">JavaScript</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">React.js</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">Node.js</span> </li>
+            </ul>
+        </div>
+          <!--Soft Skills-->
+          <div class="soft-skills">
+            <h3 class="sidebar-title">Soft Skills</h3>
+            <ul class="soft-skills-list">
+                <li class="soft-skills-item"> <span class="soft-skills-text">Scrum </span> </li>
+                <li class="soft-skills-item"> <span class="soft-skills-text">Agile </span> </li>
+                <li class="soft-skills-item"> <span class="soft-skills-text">GTD </span> </li>
+                <li class="soft-skills-item"> <span class="soft-skills-text">Teamwork </span> </li>
+            </ul>
+        </div>
+    </aside>
+</div>
+   
+</body>
 </html>
